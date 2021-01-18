@@ -13,6 +13,7 @@ html {
 :root {
   --title-font: 'Roboto', sans-serif;
   --text-font: 'Roboto', sans-serif;
+  --accent-color: rgb(33, 150, 243);
 }
 
 body {
@@ -330,15 +331,12 @@ img {
 /* ===================== FOOTER ===================== */
 
 .footer {
-  /* padding-top: 56px;
-  padding-bottom: 56px; */
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .container {
-  background: #2f303a;
-  padding-top: 60px;
-  padding-left: 60px;
-  padding-bottom: 60px;
 }
 
 .logo-footer-accent {
@@ -421,21 +419,23 @@ img {
 }
 
 .hero-button-portfolio .link {
-  min-width: 128px;
-  height: 38px;
+  /* min-width: 128px;
+  height: 38px; */
   background: #f5f4fa;
-  color: #ffffff;
+
   /* background: #2196f3; */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: Roboto;
   cursor: pointer;
   margin-right: 8px;
-  border: 1px solid var(--accent-color);
+  border: none;
+  padding: 6px 20px;
+  line-height: 1.62;
 }
 
-.hero-button-portfolio .list:hover,
-.hero-button-portfolio .list:focus {
-  /* color: #ffffff; */
+.hero-button-portfolio .link:hover,
+.hero-button-portfolio .link:focus {
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
