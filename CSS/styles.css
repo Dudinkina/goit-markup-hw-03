@@ -109,8 +109,6 @@ img {
 
 .logotype-link {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -226,35 +224,28 @@ img {
   justify-content: space-between;
 }
 
-.advantages-list-wrapper {
-  display: flex;
-}
-
 .advantages-list {
-  width: 25%;
-  border: 1px solid #000;
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0;
 }
 
 .advantages-list-item {
-  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+  flex-basis: calc(100% / 4 - 10px);
 }
 
 .advantages-list-name {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 14px;
-  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
   display: flex;
-  justify-content: space-between;
 }
 
 .advantages-list-name:not(:last-child) {
   margin-bottom: 20px;
-  padding-right: 30px;
 }
 
 .advantages-list:not(:last-child) {
@@ -262,9 +253,6 @@ img {
 }
 
 .advantages-item-description {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -303,17 +291,12 @@ img {
 /* ===================== OUR TEAM ===================== */
 
 .our-team-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  /* margin-top: 94px;
-  margin-bottom: 60px; */
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .our-team-list {
@@ -330,29 +313,20 @@ img {
 }
 
 .our-team-list-name {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
-
-  text-align: left;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .our-team-list-description {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.188;
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
+  margin-bottom: 30px;
 }
 
 /* ===================== END OUR TEAM ===================== */
@@ -360,14 +334,12 @@ img {
 /* ===================== FOOTER ===================== */
 
 .footer {
-  padding-top: 56px;
-  padding-bottom: 56px;
+  /* padding-top: 56px;
+  padding-bottom: 56px; */
 }
 
 .footer .container {
   background: #2f303a;
-  text-decoration: none;
-  color: #ffffff;
   padding-top: 111px;
   padding-left: 15px;
 }
