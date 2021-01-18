@@ -42,6 +42,7 @@ img {
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .list {
@@ -111,7 +112,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 192;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 93px;
@@ -131,7 +132,7 @@ img {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 143;
+  line-height: 1.143;
   text-align: left;
   color: black;
   display: flex;
@@ -152,7 +153,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 143;
+  line-height: 1.143;
   letter-spacing: 0.02em;
   color: #000000;
   display: flex;
@@ -191,7 +192,7 @@ img {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 364;
+  line-height: 1.364;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -243,7 +244,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 143;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -265,7 +266,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -290,7 +291,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 167;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -306,7 +307,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 167;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -333,7 +334,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 188;
+  line-height: 1.188;
 
   text-align: left;
   letter-spacing: 0.03em;
@@ -346,7 +347,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 188;
+  line-height: 1.188;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -379,7 +380,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
@@ -394,7 +395,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
@@ -441,7 +442,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -457,13 +458,11 @@ img {
   font-family: Roboto;
   cursor: pointer;
   margin-right: 8px;
-  border: 1px solid var #2196F3(--accent-color);
   border: 1px solid var(--accent-color);
 }
 
 .hero-button-portfolio .list:hover,
 .hero-button-portfolio .list:focus {
   /* color: #ffffff; */
-  color: var #2196f3;
   background-color: var(--accent-color);
 }
